@@ -228,7 +228,7 @@ public class WordText extends AbstractText implements TextSelect {
     }
 
 
-    protected void addText(GlyphText sprite) {
+    public void addText(GlyphText sprite) {
         // the sprite
         glyphs.add(sprite);
 
